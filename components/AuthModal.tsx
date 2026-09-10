@@ -116,9 +116,9 @@ export default function AuthModal({ isOpen, onClose, onSuccess }: AuthModalProps
           <div className="w-12 h-12 mx-auto rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 mb-3">
             <Sparkles className="w-6 h-6" />
           </div>
-          <h2 className="text-2xl font-bold text-slate-900">
+          <h1 className="text-2xl font-bold text-slate-900">
             {isRegister ? "Create Farmer Account" : "Welcome Back"}
-          </h2>
+          </h1>
           <p className="text-sm text-slate-500 mt-1">
             {isRegister
               ? "Join Tomato AI to manage your tomato fields and diagnoses"
